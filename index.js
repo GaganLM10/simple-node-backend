@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 // A second example route
 app.get("/api/greet", (req, res) => {
-  res.json({ greeting: "Hi from your Express API 👋" });
+  res.json({ greeting: "Hi from your Express APP 👋" });
 });
 
 const PORT = process.env.PORT || 5000;
